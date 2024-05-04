@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "echoingvoid",
+	"version": "${version}",
+	"name": "Echoing Void",
+	"description": "Test end dimension mod",
+	"authors": [
+		"Blueshift9!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/echoingvoid/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.blueshift.echoingvoid.EchoingVoid"
+		],
+		"client": [
+			"net.blueshift.echoingvoid.EchoingVoidClient"
+		],
+		"fabric-datagen": [
+			"net.blueshift.echoingvoid.EchoingVoidDataGenerator"
+		]
+	},
+	"mixins": [
+		"echoingvoid.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
