@@ -2,5 +2,9 @@
   "item.echoingvoid.raw_titanium": "Raw Titanium",
   "item.echoingvoid.titanium_ingot": "Titanium Ingot",
 
+  "block.echoingvoid.titanium_block": "Block of Titanium",
+  "block.echoingvoid.raw_titanium_block": "Block of Raw Titanium",
+  "block.echoingvoid.titanium_ore": "Titanium Ore",
+
   "itemgroup.echoing_void": "Echoing Void"
 }

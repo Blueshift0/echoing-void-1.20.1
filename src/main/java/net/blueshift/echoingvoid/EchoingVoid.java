@@ -1,5 +1,6 @@
 package net.blueshift.echoingvoid;
 
+import net.blueshift.echoingvoid.block.ModBlocks;
 import net.blueshift.echoingvoid.item.ModItemGroups;
 import net.blueshift.echoingvoid.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -14,6 +15,8 @@ public class EchoingVoid implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
